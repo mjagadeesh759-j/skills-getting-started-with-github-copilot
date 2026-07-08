@@ -103,6 +103,26 @@ section h3 {
   font-size: 0.95rem;
 }
 
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.participant-remove {
+  border: none;
+  background: transparent;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 2px 4px;
+}
+
+.participant-remove:hover {
+  transform: scale(1.1);
+}
+
 .participants-list li.empty-state {
   background-color: #f7f7f7;
   color: #777;
